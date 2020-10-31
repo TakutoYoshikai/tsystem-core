@@ -6,7 +6,7 @@ if [ "$1" = "" ]; then
 fi
 
 cd ~/tsystem
-./bin/apt-install.sh
+./bin/package-install.sh
 
 mkdir ~/.ssh
 cp id_github id_github.pub ~/.ssh

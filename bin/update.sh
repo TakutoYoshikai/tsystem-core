@@ -1,7 +1,14 @@
 #!/bin/bash
 
 cd ~/tsystem
-sudo apt-get install -y git
+apt=`which apt`
+if [ "$apt" != "" ]; then
+  sudo apt install -y git
+fi
+yum=`which yum`
+if [ "$yum" != "" ]; then
+  sudo yum install -y git
+fi
 ssh-add -D
 cp id_github id_github.pub ~/.ssh
 cp gitconfig ~/.ssh/config

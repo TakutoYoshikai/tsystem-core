@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/tsystem
-./bin/apt-install.sh
+./bin/package-install.sh
 
 cd migration
 files=($(ls))
