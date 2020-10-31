@@ -24,7 +24,7 @@ mv keys/.git keys/.gitignore keys/* $HOME/.ssh
 chmod 600 $HOME/.ssh/*
 rm -rf $HOME/keys
 
-git clone git@github.com/$1/tbin-core.git ~/tbin
+git clone git@github.com:$1/tbin-core.git ~/tbin
 
 # その他インストール
 cd ~/tsystem/bin
