@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$1" = "" ]; then
+  echo it needs github account name
+  exit
+fi
+
 cd ~/tsystem
 ./bin/apt-install.sh
 
