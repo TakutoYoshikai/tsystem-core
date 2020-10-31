@@ -1,0 +1,18 @@
+#!/bin/bash
+
+cd ~/tsystem
+./bin/apt-install.sh
+
+cd migration
+files=($(ls))
+for f in "${files[@]}"
+do
+  if [ "`cat ../migrated.txt | grep $f`" = "" ]; then
+    echo "execute $f"
+    bash $f 
+    echo $f >> ../migrated.txt
+  fi
+done
+cd ~/tsystem
+cp bashrc.txt ~/.bashrc
+cron/cron.sh
