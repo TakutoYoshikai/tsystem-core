@@ -4,11 +4,11 @@ cd `dirname $0`
 cd ..
 
 
-apt=`which apt`
+apt=`command -v apt`
 if [ "$apt" != "" ]; then
   sudo apt remove -y `cat package.txt`
 fi
-yum=`which yum`
+yum=`command -v yum`
 if [ "$yum" != "" ]; then
   sudo yum remove -y `cat package.txt`
 fi

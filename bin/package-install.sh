@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt=`which apt`
+apt=`command -v apt`
 if [ "$apt" != "" ]; then
   cd `dirname $0`
   cd ..
@@ -10,7 +10,7 @@ if [ "$apt" != "" ]; then
   sudo apt install -y `cat apt.txt`
   exit
 fi
-yum=`which yum`
+yum=`command -v yum`
 if [ "$yum" != "" ]; then
   cd `dirname $0`
   cd ..

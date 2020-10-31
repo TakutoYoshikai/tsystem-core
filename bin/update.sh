@@ -1,11 +1,11 @@
 #!/bin/bash
 
 cd ~/tsystem
-apt=`which apt`
+apt=`command -v apt`
 if [ "$apt" != "" ]; then
   sudo apt install -y git
 fi
-yum=`which yum`
+yum=`command -v yum`
 if [ "$yum" != "" ]; then
   sudo yum install -y git
 fi
