@@ -15,4 +15,5 @@ do
 done
 cd ~/tsystem
 cp bashrc.txt ~/.bashrc
-cron/cron.sh
+cd ~/tsystem/bin
+./cron.sh

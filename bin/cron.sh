@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd `dirname $0`
+cd ~/tsystem/cron
 cat cron.txt | crontab
