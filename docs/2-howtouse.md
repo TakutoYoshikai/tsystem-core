@@ -1,4 +1,4 @@
-# 
+# How to use
 
 ## migration
 When you install some softwares. tsystem can save it as migration files.
