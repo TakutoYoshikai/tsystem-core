@@ -27,9 +27,8 @@ git push origin master
 ```
 
 ## 6. Add github private key(Don't add as a git difference)
-Key name must be id_github. git ignore this file.
 ```bash
-cp <your github key> tsystem-core/id_github
+cp <your github key> tsystem-core/id_github # Key name must be id_github. git ignore this file.
 ```
 
 ## 7. Copy tsystem-core to your device that you want to set up.
