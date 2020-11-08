@@ -19,13 +19,13 @@ tsys migrate diff
 ```
 
 ## install package
-When you install packages such as apt or yum, use tsys install
+When you install packages such as apt or yum, use `tsys install`
 ```bash
 tsys install <package name>
 ```
 
 ## remove package
-When you remove packages such as apt or yum, use tsys remove
+When you remove packages such as apt or yum, use `tsys remove`
 ```bash
 tsys remove <package name>
 ```
