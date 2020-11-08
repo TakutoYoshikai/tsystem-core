@@ -4,8 +4,8 @@
 When you install some softwares. tsystem can save it as migration files.
 
 ```bash
-tsys migrate add <migration title> # it creates a migration file and edit it.
-tsys migrate # run the migration file.
+tsys migrate add <migration title> # Tt creates a migration file and edit it.
+tsys migrate # It runs the migration file.
 ```
 ## package install
 When you install packages such as apt or yum, use tsys install
