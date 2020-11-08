@@ -1,7 +1,7 @@
 # How to use (Basic commands)
 
 ## migration
-When you install some softwares. tsystem can save it as migration files.
+When you install some softwares, tsystem can save it as migration files.
 
 ```bash
 tsys migrate add <migration title> # It creates a migration file and edit it.
@@ -11,6 +11,11 @@ tsys migrate # It runs the migration file.
 When you run migration file again, edit migrated.txt by command below.
 ```bash
 tsys migrate edit
+```
+
+When you want to check migration files that isn't executed yet, run command below.
+```bash
+tsys migrate diff
 ```
 
 ## install package
