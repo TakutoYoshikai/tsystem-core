@@ -31,6 +31,8 @@ git push origin master
 cp <your github key> tsystem-core/id_github # Key name must be id_github. git ignores this key file.
 ```
 
+## Run on your machine that you want to install tsystem from here.
+
 ## 7. Copy tsystem-core to your device that you want to set up.
 
 ```bash
