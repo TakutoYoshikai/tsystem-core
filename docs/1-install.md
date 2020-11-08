@@ -25,3 +25,15 @@ git remote add origin <your git repository>
 ```bash
 git push origin master
 ```
+
+## 6. Add github private key(Don't add as a git difference)
+Key name must be id_github. git ignore this file.
+```bash
+cp <your github key> tsystem-core/id_github
+```
+
+## 7. Copy tsystem-core to your device that you want to set up.
+
+```bash
+mv <tsystem-core repository> ~/tsystem # name must be tsystem, and directory must be home directory.
+```
