@@ -18,6 +18,7 @@ mkdir ~/workspace
 source ~/tsystem/bashrc_path.txt
 
 git clone git@github.com:$1/tbin-core.git ~/tbin
+echo $1 > ~/tsystem/github-id.txt
 
 # その他インストール
 cd ~/tsystem/bin
