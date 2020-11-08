@@ -12,3 +12,6 @@ Saving changes, updating, fetching changes are by one command.
 
 ## Installation
 [Read here](./docs/1-install.md)
+
+## Getting Started
+[Read here](./docs/2-howtouse.md)
