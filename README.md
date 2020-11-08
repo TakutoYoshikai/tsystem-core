@@ -9,6 +9,7 @@ Saving changes, updating, fetching changes are by one command.
 ## 👌 Prerequisites
 * Ubuntu 20.04
 * Ubuntu 20.10
+* ssh
 
 ## 💻 Installation
 [Read here](./docs/1-install.md)
