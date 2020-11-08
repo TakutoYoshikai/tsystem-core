@@ -15,3 +15,9 @@ Saving changes, updating, fetching changes are by one command.
 
 ## Getting Started
 [Read here](./docs/2-howtouse.md)
+
+## Authors
+* [Takuto Yoshikai](https://github.com/TakutoYoshikai)
+
+## License
+MIT License
