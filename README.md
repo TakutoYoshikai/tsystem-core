@@ -19,5 +19,8 @@ Saving changes, updating, fetching changes are by one command.
 ## Authors
 * [Takuto Yoshikai](https://github.com/TakutoYoshikai)
 
+## Contributing
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
 ## License
 MIT License
