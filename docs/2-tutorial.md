@@ -31,4 +31,8 @@ When you save changes, use tsys save. The command creates commits of your tsyste
 tsys save
 ```
 
-## 
+## update
+tsys update does apt or yum update and upgrade, pulling all repositories about tsystem, and runs migration files that be added.
+```bash
+tsys update
+```
