@@ -45,5 +45,5 @@ mv <tsystem-core repository> ~/tsystem # name must be tsystem, and directory mus
 ```bash
 cd ~/tsystem/bin
 ./update.sh
-./setup.sh
+./setup.sh <github account id>
 ```
