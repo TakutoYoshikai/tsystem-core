@@ -1,5 +1,7 @@
 # tsystem-core
 
+<img src="./tsystem-cover.png" height="300">
+
 ## 🤔 What is tsystem
 tsystem is a powerful environment backup system using github.
 Setup of new machine can be completed by a few commands.
