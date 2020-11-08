@@ -15,6 +15,7 @@ chmod 600 ~/.ssh/*
 
 cd
 mkdir ~/workspace
+mkdir ~/tsystem-mods
 source ~/tsystem/bashrc_path.txt
 
 git clone git@github.com:$1/tbin-core.git ~/tbin
