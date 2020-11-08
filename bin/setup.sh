@@ -15,14 +15,7 @@ chmod 600 ~/.ssh/*
 
 cd
 mkdir ~/workspace
-git clone git@github.com:$1/keys.git
-
-source ~/tsystem/bashrc_tmp.txt
-
-# .sshフォルダのgit管理
-mv keys/.git keys/.gitignore keys/* $HOME/.ssh
-chmod 600 $HOME/.ssh/*
-rm -rf $HOME/keys
+source ~/tsystem/bashrc_path.txt
 
 git clone git@github.com:$1/tbin-core.git ~/tbin
 
