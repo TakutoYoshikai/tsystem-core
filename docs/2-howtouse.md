@@ -41,3 +41,9 @@ tsys update does apt or yum update and upgrade, pulling all repositories about t
 ```bash
 tsys update
 ```
+
+## check status
+When you check changes of tsystem, you can use `tsys status`
+```bash
+tsys status
+```
