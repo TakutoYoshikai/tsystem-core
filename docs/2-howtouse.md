@@ -2,6 +2,7 @@
 
 ### migration
 When you install some softwares, tsystem can save it as migration files.
+migration file is a shell script of change environment.
 
 ```bash
 tsys migrate add <migration title> # It creates a migration file and edit it.
