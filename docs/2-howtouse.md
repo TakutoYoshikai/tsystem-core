@@ -1,6 +1,6 @@
 # How to use (Basic commands)
 
-## migration
+### migration
 When you install some softwares, tsystem can save it as migration files.
 
 ```bash
@@ -18,31 +18,31 @@ When you want to check migration files that isn't executed yet, run command belo
 tsys migrate diff
 ```
 
-## install package
+### install package
 When you install packages such as apt or yum, use `tsys install`
 ```bash
 tsys install <package name>
 ```
 
-## remove package
+### remove package
 When you remove packages such as apt or yum, use `tsys remove`
 ```bash
 tsys remove <package name>
 ```
 
-## save changes
+### save changes
 When you save changes, use tsys save. The command creates commits of your tsystem-core and tbin-core.
 ```bash
 tsys save
 ```
 
-## update
+### update
 tsys update does apt or yum update and upgrade, pulling all repositories about tsystem, and runs migration files that be added.
 ```bash
 tsys update
 ```
 
-## check status
+### check status
 When you check changes of tsystem, you can use `tsys status`
 ```bash
 tsys status
