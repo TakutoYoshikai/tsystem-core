@@ -8,6 +8,8 @@ Setup of new machine can be completed by a few commands.
 tsystem can save install commands of any software as migration files.
 Saving changes, updating, fetching changes are by one command.
 
+
+tsystem has minimum features. **You can get great hacking environment by continuing to add features on your tsystem. This is a framework for it.**
 ## ✓ Prerequisites
 * Ubuntu 20.04
 * Ubuntu 20.10
