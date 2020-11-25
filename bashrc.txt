@@ -118,5 +118,13 @@ fi
 
 export PATH=$PATH:$HOME/tbin
 
+mods=($(ls ~/tsystem-mods))
+for mod in "${mods[@]}"; do
+  if [ -d ~/tsystem-mods/$mod/bin ]; then
+    export PATH=$PATH:$HOME/tsystem-mods/$mod/bin
+  fi
+done
+
+
 alias quit="exit"
 exit
