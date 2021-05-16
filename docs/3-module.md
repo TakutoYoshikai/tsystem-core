@@ -3,7 +3,9 @@
 ### create new module
 ```bash
 tmm new <MODULE NAME>
+# A tsystem module is created as ~/tsystem-mods/<MODULE NAME>
 ```
+
 ### migration
 When you install some softwares as a change of tsystem module, You can create a migration file of tsystem module.
 ```bash
@@ -40,4 +42,16 @@ tmm remove <MODULE NAME>
 ### list of tsystem modules
 ```bash
 tmm ls
+```
+
+### bin directory
+The directory is in the $PATH. You can create shell commands in this directory.
+```
+~/tsystem-mods/<MODULE NAME>/bin
+```
+
+### uninstall script
+The file is a shell script for removing the tsystem module. It will be executed when you use "tmm remove"
+```
+~/tsystem-mods/<MODULE NAME>/uninstall
 ```
