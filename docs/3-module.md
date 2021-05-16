@@ -12,7 +12,10 @@ tmm migrate # It runs the migration file.
 ```
 
 ### create github repository
-The repository name is "tsystem-mod-<MODULE NAME>"
+The repository name is 
+```
+tsystem-mod-<MODULE NAME>
+```
 
 ### save module
 ```bash
