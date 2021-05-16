@@ -7,7 +7,7 @@ if [ "$apt" != "" ]; then
   sudo apt update -y
   sudo apt upgrade -y
 
-  sudo apt install -y `cat apt.txt`
+  sudo apt install -y `cat package.txt`
   exit
 fi
 yum=`command -v yum`
@@ -16,6 +16,6 @@ if [ "$yum" != "" ]; then
   cd ..
   sudo yum update -y
 
-  sudo yum install -y `cat apt.txt`
+  sudo yum install -y `cat package.txt`
   exit
 fi
