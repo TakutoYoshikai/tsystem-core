@@ -1,64 +1,64 @@
 # How to use of tsystem module
 
-### create github repository
+### Create github repository
 The repository name must be 
 ```
 tsystem-mod-<MODULE NAME>
 ```
 
 ## Commands
-### create new module
+### Create new module
 ```bash
 tmm new <MODULE NAME>
 # A tsystem module is created as ~/tsystem-mods/<MODULE NAME>
 ```
 
-### migration
+### Migration
 When you install some softwares as a change of tsystem module, You can create a migration file of tsystem module.
 ```bash
 tmm migrate add <MODULE NAME> <MIGRATION TITLE> # It creates a migration file and edit it.
 tmm migrate # It runs the migration file.
 ```
 
-### save module
+### Save module
 ```bash
 tmm save
 ```
 
-### check status of tsystem modules
+### Check status of tsystem modules
 ```bash
 tmm status
 ```
 
-### update
+### Update
 ```bash
 tmm update
 ```
 
-### remove tsystem module
+### Remove tsystem module
 ```bash
 tmm remove <MODULE NAME>
 ```
 
-### list of tsystem modules
+### List of tsystem modules
 ```bash
 tmm ls
 ```
 
 ## Directory Structure
-### apt or yum package list
+### Apt or yum package list
 You can write this file to install apt packages as a change of tsystem module.
 ```
 ~/tsystem-mods/<MODULE NAME>/package.txt
 ```
 
-### bin directory
+### Bin directory
 The directory is in the $PATH. You can create shell commands in this directory.
 ```
 ~/tsystem-mods/<MODULE NAME>/bin
 ```
 
-### uninstall script
+### Uninstall script
 The file is a shell script for removing the tsystem module. It will be executed when you use "tmm remove"
 ```
 ~/tsystem-mods/<MODULE NAME>/uninstall
