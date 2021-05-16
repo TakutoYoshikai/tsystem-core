@@ -46,6 +46,12 @@ tmm ls
 ```
 
 ## Directory Structure
+### apt package list
+You can write this file to install apt packages as a change of tsystem module.
+```
+~/tsystem-mods/<MODULE NAME>/package.txt
+```
+
 ### bin directory
 The directory is in the $PATH. You can create shell commands in this directory.
 ```
