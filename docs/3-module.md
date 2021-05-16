@@ -1,5 +1,12 @@
 # How to use (TSYSTEM MODULE)
 
+### create github repository
+The repository name must be 
+```
+tsystem-mod-<MODULE NAME>
+```
+
+## Commands
 ### create new module
 ```bash
 tmm new <MODULE NAME>
@@ -11,12 +18,6 @@ When you install some softwares as a change of tsystem module, You can create a 
 ```bash
 tmm migrate add <MODULE NAME> <MIGRATION TITLE> # It creates a migration file and edit it.
 tmm migrate # It runs the migration file.
-```
-
-### create github repository
-The repository name is 
-```
-tsystem-mod-<MODULE NAME>
 ```
 
 ### save module
@@ -44,6 +45,7 @@ tmm remove <MODULE NAME>
 tmm ls
 ```
 
+## Directory Structure
 ### bin directory
 The directory is in the $PATH. You can create shell commands in this directory.
 ```
