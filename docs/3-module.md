@@ -46,7 +46,7 @@ tmm ls
 ```
 
 ## Directory Structure
-### apt package list
+### apt or yum package list
 You can write this file to install apt packages as a change of tsystem module.
 ```
 ~/tsystem-mods/<MODULE NAME>/package.txt
