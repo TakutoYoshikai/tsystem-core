@@ -59,7 +59,7 @@ The directory is in the $PATH. You can create shell commands in this directory.
 ```
 
 ### Uninstall script
-The file is a shell script for removing the tsystem module. It will be executed when you use "tmm remove"
+The file is a shell script for removing the tsystem module. It is executed when you use "tmm remove"
 ```
 ~/tsystem-mods/<MODULE NAME>/uninstall
 ```
