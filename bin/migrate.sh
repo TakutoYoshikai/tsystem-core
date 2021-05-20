@@ -1,6 +1,12 @@
 #!/bin/bash
 
 cd ~/tsystem
+
+apt=`command -v apt`
+if [ "$apt" != "" ]; then
+  ./bin/add-apt-repo.sh
+fi
+
 ./bin/package-install.sh
 
 cd migration
