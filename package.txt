@@ -1,4 +1,5 @@
 vim
 git
+curl
 python
 python3
