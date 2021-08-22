@@ -18,7 +18,11 @@ mkdir ~/workspace
 mkdir ~/tsystem-mods
 source ~/tsystem/bashrc_path.txt
 
-# git clone git@github.com:$1/tbin-core.git ~/tbin
+tbin_name=`cat ~/tsystem/tbin-name.txt`
+if [ "$tbin_name" != "" ]; then
+  git clone git@github.com:$1/$tbin_name.git ~/tbin
+fi
+
 echo $1 > ~/tsystem/github-id.txt
 
 cd ~/tsystem/bin
