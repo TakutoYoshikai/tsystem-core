@@ -29,6 +29,7 @@ echo $1 > ~/tsystem/github-id.txt
 cd ~/tsystem/bin
 
 if [ "`uname`" = "Darwin" ]; then
+  xcode-select --install
   ./install-homebrew.sh  
 fi
 
