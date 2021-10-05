@@ -125,5 +125,8 @@ for mod in "${mods[@]}"; do
   fi
 done
 
+if [ "`uname`" = "Darwin" ]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
 alias quit="exit"
