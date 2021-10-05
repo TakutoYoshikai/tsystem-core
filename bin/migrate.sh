@@ -3,7 +3,7 @@
 cd ~/tsystem
 
 apt=`command -v apt`
-if [ "$apt" != "" ]; then
+if [ "`uname`" != "Darwin" -a "$apt" != "" ]; then
   ./bin/add-apt-repo.sh
 fi
 
@@ -20,6 +20,9 @@ do
   fi
 done
 cd ~/tsystem
-cp bashrc.txt ~/.bashrc
+if [ "`uname`" = "Darwin" ]; then
+  cp bashrc.txt ~/.bash_profile
+else
+  cp bashrc.txt ~/.bashrc
+fi
 cd ~/tsystem/bin
-./cron.sh

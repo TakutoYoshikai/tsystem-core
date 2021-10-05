@@ -1,7 +1,17 @@
 #!/bin/bash
 
+brew=`command -v brew`
 apt=`command -v apt`
-if [ "$apt" != "" ]; then
+if [ "$brew" != "" ]; then
+  cd `dirname $0`
+  cd ..
+  brew update
+  brew upgrade
+  brew install `cat package.txt`
+  exit
+fi
+
+if [ "`uname`" != "Darwin" -a "$apt" != "" ]; then
   cd `dirname $0`
   cd ..
   sudo apt update -y
