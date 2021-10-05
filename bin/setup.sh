@@ -33,4 +33,6 @@ if [ "`uname`" = "Darwin" ]; then
   ./install-homebrew.sh  
 fi
 
+source ~/tsystem/bashrc_path.txt
+
 ./migrate.sh
